@@ -1,0 +1,103 @@
+.pagination {
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-color: #333333;
+  --bs-pagination-bg: #fff;
+  --bs-pagination-border-width: 1px;
+  --bs-pagination-border-color: #dddfeb;
+  --bs-pagination-border-radius: 0.35rem;
+  --bs-pagination-hover-color: var(--bs-link-hover-color);
+  --bs-pagination-hover-bg: #eaecf4;
+  --bs-pagination-hover-border-color: #dddfeb;
+  --bs-pagination-focus-color: var(--bs-link-hover-color);
+  --bs-pagination-focus-bg: #eaecf4;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+  --bs-pagination-active-color: #fff;
+  --bs-pagination-active-bg: #f1cb25;
+  --bs-pagination-active-border-color: #cccccc;
+  --bs-pagination-disabled-color: #858796;
+  --bs-pagination-disabled-bg: #fff;
+  --bs-pagination-disabled-border-color: #dddfeb;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ed6a49;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b75a38;
+  --bs-btn-hover-border-color: #b75a38;
+  --bs-btn-focus-shadow-rgb: 105, 136, 228;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ed6a49;
+  --bs-btn-active-border-color: #b75a38;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #ed6a49;
+  --bs-btn-disabled-border-color: #ed6a49;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: #fff;
+  background: #f1cb25;
+  line-height: 46px;
+}
+
+.sidebar .nav-item {
+  position: relative;
+}
+
+li.nav-item span {
+  font-family: Montserrat, sans-serif;
+  color: #555555;
+  font-size: 13.6px;
+}
+
+li.nav-item i {
+  color: #555555;
+  font-size: 13.6px;
+}
+
+.sidebar-dark .nav-item .nav-link i {
+  color: #555555;
+}
+
+.sidebar .nav-item .nav-link.active {
+  font-weight: 700;
+}
+
+.sidebar-dark #sidebarToggle {
+  background-color: #f1cb25;
+}
+
+.sidebar-dark #sidebarToggle:hover {
+  background-color: rgba(241,203,37,0.7);
+}
+
+.sidebar-dark .nav-item .nav-link.active i, .sidebar-dark .nav-item .nav-link:active i, .sidebar-dark .nav-item .nav-link:focus i, .sidebar-dark .nav-item .nav-link:hover i {
+  color: #555555;
+}
+
+.form-control-user {
+  font-size: .8rem;
+  border-radius: 10rem;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #ed6a49;
+  --bs-bg-opacity: 1;
+  color: white;
+}
+
